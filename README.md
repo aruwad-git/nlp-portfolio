@@ -23,7 +23,7 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
 
 ## BioASQ - Task b
 
-![Google QUEST Q&A Labeling](./2_Project/1_Google_QUEST/Icon.JPG){width=200px}
+![Google QUEST Q&A Labeling](./2_Project/1_Google_QUEST/Icon.JPG =250x)
 
 
 <table style="border: 1px solid #ddd; border-radius: 8px; width: 500px; table-layout: fixed;">
