@@ -40,15 +40,15 @@
 
 - **Evaluation:**
   - Mean column-wise Spearman's correlation coefficient.
-  - $$ \text{Score}(y_{\text{pred}}, y_{\text{test}}) = \frac{1}{m} \sum_{j=1}^{m} \rho_j $$
-    - $$ y_{\text{pred}} $$: Predicted values for all samples across $$ m $$ labels.
-    - $$ y_{\text{test}} $$: Ground truth values for all samples across $$ m $$ labels.
-    - $$ m $$: Number of labels (columns).
-    - $$ \rho_j $$: Spearman's rank correlation coefficient for the $$ j $$-th label.
-  - $$ \rho_j = 1 - \frac{6 \sum_{i=1}^n (r_{ij} - \hat{r}_{ij})^2}{n (n^2 - 1)} $$
-    - $$ n $$: Number of samples.
-    - $$ r_{ij} = \text{Rank}(y_{\text{test}, ij}) $$
-    - $$ \hat{r}_{ij} = \text{Rank}(y_{\text{pred}, ij}) $$
+  - $$\text{Score}(y_{\text{pred}}, y_{\text{test}}) = \frac{1}{m} \sum_{j=1}^{m} \rho_j$$
+    - $$y_{\text{pred}}$$: Predicted values for all samples across $$m$$ labels.
+    - $$y_{\text{test}}$$: Ground truth values for all samples across $$m$$ labels.
+    - $$m$$: Number of labels (columns).
+    - $$\rho_j$$: Spearman's rank correlation coefficient for the $$j$$-th label.
+  - $$\rho_j = 1 - \frac{6 \sum_{i=1}^n (r_{ij} - \hat{r}_{ij})^2}{n (n^2 - 1)}$$
+    - $$n$$: Number of samples.
+    - $$r_{ij} = \text{Rank}(y_{\text{test}, ij})$$
+    - $$\hat{r}_{ij} = \text{Rank}(y_{\text{pred}, ij})$$
 
 ---
 
