@@ -6,6 +6,8 @@
 - Custom model with bypass, for non-linguistic features.
 - Stage-wise Fine-Tuning, Alternating training between Full and Head-Only.
 - One head for all labels, to capture the relative info between labels.
+- Blog: [(tbd)]()
+- Note) Project and results are post-competition.
   
 ## What is 'Google QUEST Q&A Labeling'?
 
