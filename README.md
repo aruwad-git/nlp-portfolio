@@ -36,7 +36,7 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
 ## Google QUEST Q&A Labeling
 
 
-<table style="border: 1px solid #ddd; border-radius: 200px; width: 500px;">
+<table style="border: 1px solid #ddd; border-radius: 8px; width: 5px;">
 <tr>
   <td style="border-right: 1px solid #ddd;">
     <a href="https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/1_Google_QUEST" style="text-decoration: none; color: inherit;">
