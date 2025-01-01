@@ -14,12 +14,12 @@
   - This task is challenging due to the need for multi-label predictions that capture nuanced semantic and contextual information. 
   - The dataset reflects real-world scenarios with varied and unstructured inputs, making it highly relevant to applications in search engines, chatbots, and Q&A platforms.
   - Successfully solving this problem demonstrates the ability to handle complex NLP challenges.
-<br>
+
 - **Task Type:**
   - Text Classification.
   - Multi-label Classification.
   - Supervised Learning.
-<br>
+
 - **Input:**
   - QA datasets corrected by CrowdSource team at Google Research.
   - Gathered from nearly 70 different websites.
@@ -29,7 +29,7 @@
     - Question Title: "Best way to learn Python for data science?"
     - Question Body: "I want to learn Python for data science. Should I start with courses or books?"
     - Answer Text: "Start with courses on Coursera or Udemy; they're hands-on. Books like 'Python for Data Analysis' are also helpful."
-<br>
+
 - **Output:**
   - Target values of **30 labels** for each QA pair.
   - Full list is summarized below.
@@ -37,7 +37,7 @@
   - Example:
     - "question_asker_intent_understanding": 0.92
     - And other 29 labels.
-<br>
+
 - **Evaluation:**
   - Mean column-wise Spearman's correlation coefficient.
   - $$ \text{Score}(y_{\text{pred}}, y_{\text{test}}) = \frac{1}{m} \sum_{j=1}^{m} \rho_j $$
@@ -50,9 +50,8 @@
     - $$ r_{ij} = \text{Rank}(y_{\text{test}, ij}) $$
     - $$ \hat{r}_{ij} = \text{Rank}(y_{\text{pred}, ij}) $$
 
-
-
 ---
+
 ## About Project.
 
 | **Name**               | **Description**                                                                                     |
