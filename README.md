@@ -36,15 +36,15 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
 ## Google QUEST Q&A Labeling
 
 
-<table style="border: 1px solid #ddd; border-radius: 8px; width: 500px;">
+<table style="order: 1px solid #ddd; border-radius: 20px; width: 500px;">
 <tr>
-  <td style="padding: 0; border-right: 1px solid #ddd;">
+  <td style="border-right: 1px solid #ddd;">
     <a href="https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/1_Google_QUEST" style="text-decoration: none; color: inherit;">
     <img src="./2_Project/1_Google_QUEST/Icon.JPG" alt="Google QUEST Q&A Labeling" style="width: 250px; height: auto;">     </a>
   </td>
   <td style="vertical-align: top; width: 300px; color: inherit;">
     <h3 style="font-size: 16px;">Google QUEST Q&A Labeling</h3>
-    <p style="margin: 0; font-size: 12px;">
+    <p style="font-size: 12px;">
       - Multi-label Text Classification on Q&A Data.<br>
       - Results: 127/1,572 (top 8%, post-competition)<br>
       - Open Competition in Kaggle, held by Google.<br>
