@@ -52,7 +52,7 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
     </td>
     <td style="padding: 10px; vertical-align: top; width: 350px; color: inherit;">
       <h3 style="margin: 0; font-size: 14px;">Google QUEST Q&A Labeling</h3>
-      <p style="margin: 5px 0; font-size: 0.8;">
+      <p style="margin: 5px 0; font-size: 100px;">
         - Multi-label Text Classification on Q&A Data.<br>
         - Results: 127/1,572 (top 8%, post-competition)<br>
         - Open Competition in Kaggle, held by Google.<br>
