@@ -23,20 +23,25 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
 
 ## BioASQ - Task b
 
-<a href="https://your-portfolio-link.com" style="text-decoration: none; color: inherit;">
-  <div style="display: flex; align-items: center; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; max-width: 500px;">
-    <img src="" alt="BioASQ" style="width: 150px; height: auto; object-fit: cover; border-right: 1px solid #ddd;">
-    <div style="padding: 10px; font-family: Arial, sans-serif;">
-      <h3 style="margin: 0; font-size: 16px;">BioASQ - Task b.</h3>
-      <p style="margin: 5px 0; font-size: 12px; color: #555;">- A Challenge in Large-scale Biomedical Semantic Indexing and Question Answering.<br></p>
-    </div>
-  </div>
-</a>
+<table style="border: 1px solid #ddd; border-radius: 8px; width: 500px;">
+<tr>
+  <td style="border-right: 1px solid #ddd;">
+    <a href="https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/1_Google_QUEST" style="text-decoration: none; color: inherit;">
+    <img src="./2_Project/1_Google_QUEST/Icon.JPG" alt="BioASQ" style="width: 250px; height: auto;">     </a>
+  </td>
+  <td style="vertical-align: top; width: 300px; color: inherit;">
+    <h3 style="font-size: 16px;">BioASQ - Task b.</h3>
+    <p style="font-size: 12px;">
+      - A Challenge in Large-scale Biomedical Semantic Indexing and Question Answering.<br>
+    </p>
+  </td>
+</tr>
+</table>
 
 ## Google QUEST Q&A Labeling
 
 
-<table style="border: 1px solid #ddd; border-radius: 8px; width: 5px;">
+<table style="border: 1px solid #ddd; border-radius: 8px; width: 500px;">
 <tr>
   <td style="border-right: 1px solid #ddd;">
     <a href="https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/1_Google_QUEST" style="text-decoration: none; color: inherit;">
