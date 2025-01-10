@@ -34,8 +34,10 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
       <h3 style="margin: 0; font-size: 14px;">BioASQ - Task b.</h3>
       <p style="margin: 5px 0; font-size: 10px;">
         - A Challenge in Large-scale Biomedical Semantic Indexing and Question Answering.<br>  
-        - Results: 0.9541 of Macro f1 (top 1~20%).<br>  
-        - Top-tier Competition for Medical NLP.  
+        - Top-tier Competition for Medical NLP.<br> 
+        - **Results**: 0.9541 of Macro f1 (top 1~20%, post-competition).<br>
+        - **Keywords**: RAG, medical NLP, LLM fine-tuning, data augmentation, asynchronized HTTP request.<br>
+        - **Tech Stacks**: LangChain, FAISS, asyncio, ThreadPoolExecutor, BeautifulSoup.<br>
       </p>
     </td>
   </tr>
@@ -56,8 +58,9 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
       <h3 style="margin: 0; font-size: 14px;">Google QUEST Q&A Labeling</h3>
       <p style="margin: 5px 0; font-size: 10px;">
         - Multi-label Text Classification on Q&A Data.<br>
-        - Results: 127/1,572 (top 8%, post-competition)<br>
-        - Open Competition in Kaggle, held by Google.
+        - Open Competition in Kaggle, held by Google.<br>
+        - **Results**: 127/1,572 (top 8%, post-competition)<br>
+        - **Keywords**: text classification, skip connections, stage-wise fine-tuning.
       </p>
     </td>
   </tr>
