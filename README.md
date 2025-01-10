@@ -21,7 +21,7 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
 
 # Projects
 
-## BioASQ - Task b <a href="https://velog.io/@aruwad/BioASQ-12b">(blog)</a>
+## BioASQ - Task b <a href="https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/1_Google_QUEST"> code </a> <a href="https://velog.io/@aruwad/BioASQ-12b">blog</a>
 
 <table style="border: 1px solid #ddd; border-radius: 8px; width: 300px;">
   <tr>
