@@ -31,7 +31,7 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
       </a>
     </td>
     <td style="padding: 10px; vertical-align: top; width: 350px; color: inherit;">
-      <h3 style="margin: 0; font-size: 14px;">BioASQ - Task b. <a href="https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/1_Google_QUEST"> (code) </a> <a href="https://velog.io/@aruwad/BioASQ-12b"> (blog) </a></h3>
+      <h3 style="margin: 0; font-size: 14px;">BioASQ - Task b. <a href="https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/2_BioASQ"> (code) </a> <a href="https://velog.io/@aruwad/BioASQ-12b"> (blog) </a></h3>
       <p style="margin: 5px 0; font-size: 10px;">
         - A Challenge in Large-scale Biomedical Semantic Indexing and Question Answering.<br>  
         - Top-tier Competition for Medical NLP.<br> 
@@ -55,7 +55,7 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
       </a>
     </td>
     <td style="padding: 10px; vertical-align: top; width: 350px; color: inherit;">
-      <h3 style="margin: 0; font-size: 14px;">Google QUEST Q&A Labeling</h3>
+      <h3 style="margin: 0; font-size: 14px;">Google QUEST Q&A Labeling  <a href="https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/1_Google_QUEST"> (code) </a> <a href="https://velog.io/@aruwad/Kaggle-Google-QUEST"> (blog) </a></h3></h3>
       <p style="margin: 5px 0; font-size: 10px;">
         - Multi-label Text Classification on Q&A Data.<br>
         - Open Competition in Kaggle, held by Google.<br>
