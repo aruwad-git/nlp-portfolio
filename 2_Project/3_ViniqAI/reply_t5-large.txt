@@ -1,0 +1,62 @@
+# Question: I'm new to wine. Which wine should I start?
+-- No-RAG: red
+-- RAG: a dry white or rose
+-- Contexts:
+Instead, opt for a dry white or rose. Beginning with a lighter-bodied wine can be a step to. learning to enjoy a variety of wines
+
+# Question: What should I consider to choose a good wine?
+-- No-RAG: a wine's quality
+-- RAG: their taste buds
+-- Contexts:
+How each person defines a good wine is unique to them and their taste buds. Whether you prefer delicate, bold, sweet, tart or even spicy flavors, it is possible to find a wine you adore
+
+# Question: Which food is good with sweet wine?
+-- No-RAG: savoury foods
+-- RAG: salty
+-- Contexts:
+In this case, it’s best to find a higher-acidity wine to match your meal.
+The combination of salty and sweet is a classic that carries into the wine-pairing world, too
+
+# Question: Does wine always become better as getting older?
+-- No-RAG: no
+-- RAG: Only some wines taste better with age
+-- Contexts:
+Only some wines taste better with age, and different wines are best after different aging periods
+
+# Question: Is price important for wine?
+-- No-RAG: yes
+-- RAG: a more expensive bottle of wine does not always mean it is going to be a better bottle of wine
+-- Contexts:
+Choosing an expensive wine for its price point may also lead you astray — a more expensive bottle of wine does not always mean it is going to be a better bottle of wine
+
+# Question: How long can I consume a wine after purchase?
+-- No-RAG: 24 hours
+-- RAG: within five years
+-- Contexts:
+, and you should consume them within five years of purchasing them. However, if there’s ever a time to take a close look at the year on the bottle, it’s for red wines
+
+# Question: Are wines with screw caps bad?
+-- No-RAG: no
+-- RAG: While wine bottles with screw caps can get a bad reputation, they can still hold delicious wine
+-- Contexts:
+When selecting the wine you want to buy, start with the flavors and characteristics you prefer, as well as the occasion, then allow price to be a secondary consideration.
+
+While wine bottles with screw caps can get a bad reputation, they can still hold delicious wine
+
+# Question: How can I log the history of wine consumption?
+-- No-RAG: Use a wine bottle opener.
+-- RAG: Many. wine apps for your smartphone. allow you to record your perception of a particular wine
+-- Contexts:
+Many. wine apps for your smartphone. allow you to record your perception of a particular wine
+
+# Question: Which categories should I check on the label of wine?
+-- No-RAG: red, white, and sparkling
+-- RAG: age of the wine
+-- Contexts:
+Look for “second-label” wines.
+6. Don’t stress over the age of the wine.
+7. Don’t let price dictate your choice.
+8. Don’t write off bottles with screw caps.
+9. Keep track of the wines you try.
+10
+

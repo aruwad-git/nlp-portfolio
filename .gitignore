@@ -4,7 +4,8 @@
 # Custom Filter - General
 **/logs/
 **/checkpoints/
-**/bck
+*bck*
+*datasets*
 **/docs
 *.exe
 
