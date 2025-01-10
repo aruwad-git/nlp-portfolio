@@ -14,7 +14,7 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
 
 - Email: aruwad.persona@gmail.com
 - LinkedIn: (tbd)
-- Blog: (tbd)
+- Blog: https://velog.io/@aruwad/posts
 - GitHub: https://github.com/aruwad-git/nlp-portfolio
 
 ---
@@ -44,7 +44,7 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
 </table>
 
 
-## Google QUEST Q&A Labeling <a href="https://velog.io/@aruwad/Kaggle-Google-QUEST">(blog)</a>
+## Google QUEST Q&A Labeling
 
 
 <table style="border: 1px solid #ddd; border-radius: 8px; width: 300px;">
