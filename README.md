@@ -35,9 +35,9 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
       <p style="margin: 5px 0; font-size: 10px;">
         - A Challenge in Large-scale Biomedical Semantic Indexing and Question Answering.<br>  
         - Top-tier Competition for Medical NLP.<br> 
-        - **Results**: 0.9541 of Macro f1 (top 1~20%, post-competition).<br>
-        - **Keywords**: RAG, medical NLP, LLM fine-tuning, data augmentation, asynchronized HTTP request.<br>
-        - **Tech Stacks**: LangChain, FAISS, asyncio, ThreadPoolExecutor, BeautifulSoup.<br>
+        - <b>Results</b>: 0.9541 of Macro f1 (top 1~20%, post-competition).<br>
+        - <b>Keywords</b>: RAG, medical NLP, LLM fine-tuning, data augmentation, asynchronized HTTP request.<br>
+        - <b>Tech Stacks</b>: LangChain, FAISS, aiohttp, asyncio, ThreadPoolExecutor, BeautifulSoup.
       </p>
     </td>
   </tr>
@@ -59,8 +59,9 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
       <p style="margin: 5px 0; font-size: 10px;">
         - Multi-label Text Classification on Q&A Data.<br>
         - Open Competition in Kaggle, held by Google.<br>
-        - **Results**: 127/1,572 (top 8%, post-competition)<br>
-        - **Keywords**: text classification, skip connections, stage-wise fine-tuning.
+        - <b>Results</b>: 127/1,572 (top 8%, post-competition)<br>
+        - <b>Keywords</b>: text classification, skip connections, stage-wise fine-tuning.<br>
+        - <b>Tech Stacks</b>: Hugging Face, sklearn, pyplot, scipy.
       </p>
     </td>
   </tr>
