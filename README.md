@@ -13,7 +13,7 @@ During this time, I was deeply impressed by how NLP transforms groundbreaking AI
 Please check out my portfolio below, which is updated almost everyday, and don’t hesitate to reach out for recruitment, projects, or any opportunities we can discuss!
 
 - Email: aruwad.persona@gmail.com
-- LinkedIn: (tbd)
+- LinkedIn: (wip)
 - Blog: https://velog.io/@aruwad/posts
 - GitHub: https://github.com/aruwad-git/nlp-portfolio
 
