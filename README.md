@@ -27,7 +27,7 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
   <tr>
     <td style="padding: 0; border-right: 1px solid #ddd; width: 250px;">
       <a href="https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/1_Google_QUEST" style="text-decoration: none; color: inherit;">
-        <img src="./2_Project/2_BioASQ/icon.JPG" alt="BioASQ" style="width: 250px; height: auto;">
+        <img src="./2_Project/2_BioASQ/figs/icon.JPG" alt="BioASQ" style="width: 250px; height: auto;">
       </a>
     </td>
     <td style="padding: 10px; vertical-align: top; width: 350px; color: inherit;">
