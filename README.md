@@ -21,7 +21,7 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
 
 # Projects
 
-## BioASQ - Task b
+## BioASQ - Task b <a href="https://velog.io/@aruwad/BioASQ-12b">(blog)</a>
 
 <table style="border: 1px solid #ddd; border-radius: 8px; width: 300px;">
   <tr>
@@ -33,17 +33,16 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
     <td style="padding: 10px; vertical-align: top; width: 350px; color: inherit;">
       <h3 style="margin: 0; font-size: 14px;">BioASQ - Task b.</h3>
       <p style="margin: 5px 0; font-size: 10px;">
-        - A Challenge in Large-scale Biomedical Semantic Indexing and Question Answering.
-        - Results: 0.9541 of Macro f1 (top 1~20%).
-        - Top-tier Competition for Medical NLP.
-        - Blog is <a href="https://velog.io/@aruwad/BioASQ-12b"> here.</a><br>
+        - A Challenge in Large-scale Biomedical Semantic Indexing and Question Answering.<br>  
+        - Results: 0.9541 of Macro f1 (top 1~20%).<br>  
+        - Top-tier Competition for Medical NLP.  
       </p>
     </td>
   </tr>
 </table>
 
 
-## Google QUEST Q&A Labeling
+## Google QUEST Q&A Labeling <a href="https://velog.io/@aruwad/Kaggle-Google-QUEST">(blog)</a>
 
 
 <table style="border: 1px solid #ddd; border-radius: 8px; width: 300px;">
@@ -59,7 +58,6 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
         - Multi-label Text Classification on Q&A Data.<br>
         - Results: 127/1,572 (top 8%, post-competition)<br>
         - Open Competition in Kaggle, held by Google.
-        - Blog is <a href="https://velog.io/@aruwad/Kaggle-Google-QUEST"> here.</a><br>
       </p>
     </td>
   </tr>
