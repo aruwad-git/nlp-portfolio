@@ -13,27 +13,31 @@ During this time, I was deeply impressed by how NLP transforms groundbreaking AI
 Please check out my portfolio below, which is updated almost everyday, and donâ€™t hesitate to reach out for recruitment, projects, or any opportunities we can discuss!
 
 - Email: aruwad.persona@gmail.com
-- LinkedIn: (tbd)
-- Blog: (tbd)
+- LinkedIn: (wip)
+- Blog: https://velog.io/@aruwad/posts
 - GitHub: https://github.com/aruwad-git/nlp-portfolio
 
 ---
 
 # Projects
 
-## BioASQ - Task b
+## BioASQ - Task b 
 
 <table style="border: 1px solid #ddd; border-radius: 8px; width: 300px;">
   <tr>
     <td style="padding: 0; border-right: 1px solid #ddd; width: 250px;">
-      <a href="https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/1_Google_QUEST" style="text-decoration: none; color: inherit;">
-        <img src="./2_Project/2_BioASQ/icon.JPG" alt="BioASQ" style="width: 250px; height: auto;">
+      <a href="https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/2_BioASQ" style="text-decoration: none; color: inherit;">
+        <img src="./2_Project/2_BioASQ/figs/icon.JPG" alt="BioASQ" style="width: 250px; height: auto;">
       </a>
     </td>
     <td style="padding: 10px; vertical-align: top; width: 350px; color: inherit;">
-      <h3 style="margin: 0; font-size: 14px;">BioASQ - Task b.</h3>
+      <h3 style="margin: 0; font-size: 14px;">BioASQ - Task b. <a href="https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/2_BioASQ"> (code) </a> <a href="https://velog.io/@aruwad/BioASQ-12b"> (blog) </a></h3>
       <p style="margin: 5px 0; font-size: 10px;">
-        - A Challenge in Large-scale Biomedical Semantic Indexing and Question Answering.<br>
+        - A Challenge in Large-scale Biomedical Semantic Indexing and Question Answering.<br>  
+        - Top-tier Competition for Medical NLP.<br> 
+        - <b>Results</b>: 0.9541 of Macro f1 (top 1~20%, post-competition).<br>
+        - <b>Keywords</b>: RAG, medical NLP, LLM fine-tuning, data augmentation, asynchronized HTTP request.<br>
+        - <b>Tech Stacks</b>: LangChain, FAISS, aiohttp, asyncio, ThreadPoolExecutor, BeautifulSoup.
       </p>
     </td>
   </tr>
@@ -51,11 +55,13 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
       </a>
     </td>
     <td style="padding: 10px; vertical-align: top; width: 350px; color: inherit;">
-      <h3 style="margin: 0; font-size: 14px;">Google QUEST Q&A Labeling</h3>
+      <h3 style="margin: 0; font-size: 14px;">Google QUEST Q&A Labeling  <a href="https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/1_Google_QUEST"> (code) </a> <a href="https://velog.io/@aruwad/Kaggle-Google-QUEST"> (blog) </a></h3></h3>
       <p style="margin: 5px 0; font-size: 10px;">
         - Multi-label Text Classification on Q&A Data.<br>
-        - Results: 127/1,572 (top 8%, post-competition)<br>
         - Open Competition in Kaggle, held by Google.<br>
+        - <b>Results</b>: 127/1,572 (top 8%, post-competition)<br>
+        - <b>Keywords</b>: text classification, skip connections, stage-wise fine-tuning.<br>
+        - <b>Tech Stacks</b>: Hugging Face, sklearn, pyplot, scipy.
       </p>
     </td>
   </tr>
