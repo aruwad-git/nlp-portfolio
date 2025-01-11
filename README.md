@@ -21,6 +21,28 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
 
 # Projects
 
+## Viniq
+
+<table style="border: 1px solid #ddd; border-radius: 8px; width: 300px;">
+  <tr>
+    <td style="padding: 0; border-right: 1px solid #ddd; width: 250px;">
+      <a href="https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/3_Viniq" style="text-decoration: none; color: inherit;">
+        <img src="./2_Project/3_Viniq/figs/icon.JPG" alt="Viniq" style="width: 250px; height: auto;">
+      </a>
+    </td>
+    <td style="padding: 10px; vertical-align: top; width: 350px; color: inherit;">
+      <h3 style="margin: 0; font-size: 14px;">Viniq<a href="https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/3_Viniq"> (code) </a> <a href=""> (blog - wip) </a></h3>
+      <p style="margin: 5px 0; font-size: 10px;">
+        - A Chatbot for Wine Recommendation and Food-paring.<br>  
+        - <b>Method</b>:Data scraping from raw blog postings, for efficient RAG construction in 1~2 days.<br> 
+        - <b>Results</b>: RAG pipeline with better domain-specific reply, used by U.S. startup for IR and other activities.<br>
+        - <b>Keywords</b>: RAG, prompted engineering, domain-specific LLM, vector DB from URLs, asynchronized HTTP request.<br>
+        - <b>Tech Stacks</b>: LangChain, Goose 3, FAISS, aiohttp, asyncio.
+      </p>
+    </td>
+  </tr>
+</table>
+
 ## BioASQ - Task b 
 
 <table style="border: 1px solid #ddd; border-radius: 8px; width: 300px;">
