@@ -10,12 +10,39 @@ After 5 years of academic experience earning my BS/MS degrees in Computer Scienc
 
 During this time, I was deeply impressed by how NLP transforms groundbreaking AI research into real-world applications. After **substantial** effort in study and practice, I’ve built a solid NLP foundation and, as of January 2025, began actively preparing my portfolio and seeking new career opportunities.
 
-Please check out my portfolio below, which is updated almost everyday, and don’t hesitate to reach out for recruitment, projects, or any opportunities we can discuss!
+With confidence built on a solid foundation in ML and NLP, and experience as an initial member of three startups, including a C-level position, I have actively begun preparing my portfolio and seeking new career opportunities as of 2025.
+
+Please check out my portfolio below, <b><ins>which is actively updated</ins></b>, and don’t hesitate to reach out for recruitment, projects, or any opportunities we can discuss!<br>
+
+Note: This is an informal version of CV for overview. If you want formal CV, feel free to contact me.
 
 - Email: aruwad.persona@gmail.com
 - LinkedIn: (wip)
 - Blog: https://velog.io/@aruwad/posts
 - GitHub: https://github.com/aruwad-git/nlp-portfolio
+
+---
+
+# Executive Summary
+- **Highlights**
+  - Data scientist and project manager with 5 years of academic experience and 5 years of industrial expertise.
+  - Founding member of 3 startups, including C-level roles.
+  - Led the IR process for Series A funding, successfully securing approximately $X million.
+  - Extensive experience in both ML R&D and project management, effectively coordinating technical teams, business teams, and customers.
+  - Enthusiastic and quick learner in new, complex domains (now LLM!).
+- **Skills**  
+  - Fine-tuning and application of pretrained LLMs: quantization, PEFT, and BERT-like LLMs.  
+  - RAG (Retrieval-Augmented Generation): RAG pipeline, asynchronous web scraping, vector database construction, prompt engineering, and fine-tuning RAG models.  
+  - NLP tasks: text classification, sentiment analysis, and question answering.  
+  - Application of ML and LLMs in various domains: healthcare, betting, language testing, etc.  
+  - Healthcare applications: sensor calibration, trend prediction, disease prediction and management, and personalized recommendations.  
+  - Skills for C-level project management in both B2B and B2C: excellent communication within and outside the team, documentation, and timeline management.
+  - Experienced in R&D tasks: problem definition, experiment design, surveying papers and patents, writing and publishing papers, and data-driven decision-making.
+  - Strong culture fit for global and multidisciplinary environments.  
+- **Tech Stacks**
+  - Basic ML: Python, Tensorflow, PyTorch, `optuna`, `sklearn`, `pandas`, `pyplot`, `scipy`, etc.
+  - NLP: 🤗 Ecosystem (`transformers`, `datasets`, `tokenizer`, etc.), LangChain, `peft`, `bitsandbytes`, etc.
+
 
 ---
 
@@ -91,6 +118,62 @@ Please check out my portfolio below, which is updated almost everyday, and don�
 
 
 
+---
+
+# Work Experience
+
+## Machine Learning Engineer (Oct 2018 – Apr 2019) <br><sub>Korean Language and Artificial Intelligence (KLAI)</sub>
+- Developed a prototype for Korean language autograding system for a speaking section for TOPIK test.
+- Implemented services for speech recognition and grading models with a basic server architecture, using Google speech recognition API, EC2 and Sagemaker in AWS, and MySQL.
+- Surveyed speech recognition algorithms for Korean and evaluation methodologies, implemented and tested basic algorithms such as the comparison of MAPD.
+
+## Machine Learning Engineer (Apr 2019 – Sep 2019) <br><sub>Doohoma Company</sub>
+- Developed an AI betting model for horse racing with real-world data.
+- The model incorporated various raw and handcrafted features such as biological information of the horse, horse trainer details, and past race results, and provided optimal horse combinations and betting amounts.
+- Utilized rule-based preprocessing, a deep learning architecture combining CNN for low-level feature extraction, GRU for time-series learning, and a Bayesian network for stochastic inference of high-level features.
+
+## Machine Learning Engineer (Feb 2020 – Feb 2023) <br><sub>Konan Technology</sub>
+- Performed object detection and classification for the project commissioned by the Ministry of National Defense of Korea, integrating YOLO4 into a data collection module and developing test procedures for weapon and vehicle recognition.
+- Performed fundamental R&D on speaker recognition for Korean speakers, testing open APIs like GCP and UIS-RNN, and exploring new algorithms based on sentence-ending word analysis.
+- Managed the project for Continuous Glucose Monitoring System (CGMS) and dietary management service for diabetes.
+- Conducted R&D tasks, including sensor calibration algorithms, lag time compensation, glucose trend prediction, and glycemic index-based dietary management applications.
+- Note: Some tasks listed here and under Konan Technology may correspond to overlapping periods due to the project's continuous development from Konan Technology to Albiti.
+
+## Product Manager / Machine Learning Engineer (Feb 2023 – Feb 2024) <br><sub>Albiti</sub>
+- Continuously managed and performed R&D tasks for the CGMS project.
+- Directed the IR process for Series A funding, successfully securing around $X million.
+- Recruited and managed 5–10 team members with diverse backgrounds, including engineers and designers.
+- Collaborated with the Inha University lab's H/W team on algorithms for non-enzymatic continuous glucose monitoring sensors, including calibration and lag time compensation.
+- Surveyed 100+ research papers and patents, proposed a unique firmware algorithm design with minimal patent infringement, and worked closely with executives, engineers, and a patent lawyer.
+- Managed R&D on glycemic index estimation algorithms, conducted experiments involving blood glucose analysis, and secured an MoU with the Glycemic Index Foundation.
+- Planned R&D and regulatory approval processes in collaboration with Chinese hospitals and CROs, addressing GMP requirements and fast-track approval for innovative medical products.
+- Led teams of 10–15 undergraduates at Yonsei University, providing lectures, challenges, and recruitment management.
+
+## Chief Technology Officer (TBD) (Aug 2024 – Oct 2024) <br><sub>Viniq AI</sub>
+- Set to be hired as CTO post-funding and initiated participation in tasks.
+- Developed a RAG pipeline for QA system for wine recommendation and food pairing.
+- Managed the website development for a chatbot demo application based on ChatGPT 4.0 for demo and IR purposes.
+- Contributed to early-stage startup planning, including a business plan for a wine recommendation and food pairing chatbot.
+
+
+---
+
+# Education
+
+## Master’s Degree in Computer Science  
+**University of Yonsei, Dept. of Computer Science**  
+Seoul, Republic of Korea  
+**Feb 2017 – Jul 2019**
+
+## Bachelor’s Degree in Computer Science  
+**University of Yonsei, Dept. of Computer Science**  
+Seoul, Republic of Korea  
+**Feb 2010 – Feb 2017**
+
+## High School Diploma  
+**Dongducheon Foreign Language High School**  
+Dongducheon, Republic of Korea  
+**Jun 2007 – Feb 2010**
 
 ---
 
