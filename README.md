@@ -30,6 +30,7 @@ Note: This is an informal version of CV for overview. If you want formal CV, fee
   - Led the IR process for Series A funding, successfully securing approximately $X million.
   - Extensive experience in both ML R&D and project management, effectively coordinating technical teams, business teams, and customers.
   - Enthusiastic and quick learner in new, complex domains (now LLM!).
+  <br>
 - **Skills**  
   - Fine-tuning and application of pretrained LLMs: quantization, PEFT, and BERT-like LLMs.  
   - RAG (Retrieval-Augmented Generation): RAG pipeline, asynchronous web scraping, vector database construction, prompt engineering, and fine-tuning RAG models.  
@@ -38,7 +39,8 @@ Note: This is an informal version of CV for overview. If you want formal CV, fee
   - Healthcare applications: sensor calibration, trend prediction, disease prediction and management, and personalized recommendations.  
   - Skills for C-level project management in both B2B and B2C: excellent communication within and outside the team, documentation, and timeline management.
   - Experienced in R&D tasks: problem definition, experiment design, surveying papers and patents, writing and publishing papers, and data-driven decision-making.
-  - Strong culture fit for global and multidisciplinary environments.  
+  - Strong culture fit for global and multidisciplinary environments.
+  <br>
 - **Tech Stacks**
   - Basic ML: Python, Tensorflow, PyTorch, `optuna`, `sklearn`, `pandas`, `pyplot`, `scipy`, etc.
   - NLP: 🤗 Ecosystem (`transformers`, `datasets`, `tokenizer`, etc.), LangChain, `peft`, `bitsandbytes`, etc.
