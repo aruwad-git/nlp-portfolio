@@ -122,7 +122,7 @@ Note: This is an informal version of CV for overview. If you want formal CV, fee
 
 # Work Experience
 
-## Chief Technology Officer (TBD) (Aug 2024 – Oct 2024) <br><sub>Viniq AI</sub>
+## Technical Advisor (Aug 2024 – Present) <br><sub>Viniq AI</sub>
 - Set to be hired as CTO post-funding and initiated participation in tasks.
 - Developed a RAG pipeline for QA system for wine recommendation and food pairing.
 - Managed the website development for a chatbot demo application based on ChatGPT 4.0 for demo and IR purposes.
