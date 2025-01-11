@@ -1,0 +1,45 @@
+# Question: What is the most popular wine in Chile?
+-- No-RAG: Chilean wine is a type of red wine that is produced in the Andes region of South America. The most popular wine in Chile is Chardonnay .
+
+-- RAG: Chilean Cabernet Sauvignon
+
+# Question: What should I consider to choose a good wine?
+-- No-RAG: The following are some basic factors to consider when choosing a good wine : The climate of the region where the wine is produced : The soil type : The climate of the region where the wine is produced : The grape variety : The variety of the grape
+
+-- RAG: Since “good wine” is so subjective, knowing how to choose the right wine means considering several factors — including occasion, flavor preferences, labels and price points.
+
+# Question: Which food is good with a sweet wine?
+-- No-RAG: A sweet wine is a type of wine that has a high alcohol content. Sweet wines are often served with desserts.
+
+-- RAG: Sweet wines like Adesso Cagnina di Romagna – 750ml and even semi-sweet wines can often bring the perfect blend of sweet and savory together, balancing one another out as you appreciate the beauty of a well-paired meal
+
+# Question: Is older wine better?
+-- No-RAG: Older wine has a higher alcohol content. The alcohol content of an older wine is lower than that of a newer wine. Therefore, older wine is generally considered to be better. The final answer: yes.
+
+-- RAG: In general, aging is more important for red wines than white wines, but any wine you purchase at the store will be ready to drink. In fact, most wines are not meant to be aged, and you should consume them within five years of purchasing them. However, if there’s ever a time to take a close look at the year on the bottle, it’s for red wines. If you’re looking for how to choose a good red wine and find yourself stuck between two different years of a variety, you may want to opt for the older Only a few types of wine benefit from aging — approximately 1% of wine is actually viable for long-term aging. Most wines on the market are aged enough and made to be enjoyed right away. A small handful of varieties will taste better after more aging
+
+# Question: Is price important for wine?
+-- No-RAG: The price of a wine is the most important factor in its value. The higher the price, the more money the wine will make.
+
+-- RAG: Generally, high-end wines cost more money upfront than a poor-tasting wine, but you should always approach this principle with caution.
+
+# Question: How long can I consume a wine after purchase?
+-- No-RAG: The wine can be consumed within a year.
+
+-- RAG: As a general rule, wines should be enjoyed within three to five days of opening.
+
+# Question: Are wines with screw caps bad?
+-- No-RAG: Screw caps are used to keep wine from leaking. Wines with screw caps are often made of plastic. Plastic is not good for the environment. The answer: no.
+
+-- RAG: While wine bottles with screw caps can get a bad reputation, they can still hold delicious wine.
+
+# Question: How can I log wine consumption?
+-- No-RAG: You can use a wine bottle opener to record your wine consumption.
+
+-- RAG: The app Wine Ring allows new wine connoisseurs and veterans alike to learn a little something new about their taste profile.
+
+# Question: Which information should I check on the wine label?
+-- No-RAG: The following information should be checked on the wine label: Name of the producer Winery
+
+-- RAG: The more details this label has, the more reliable the brand likely is. Reading the label can help you make a more informed decision when selecting a bottle of wine. In addition to the name of the winery, you can also find a brief description of the wine that includes the specific grape variety, the year these grapes were harvested, the region they were grown in, the alcohol by volume (ABV) and tasting notes While the information on wine labels is fairly standard, it may not always be
+
