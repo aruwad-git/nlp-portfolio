@@ -128,7 +128,7 @@ Note: This is an informal version of CV for overview. If you want formal CV, fee
 - Managed the website development for a chatbot demo application based on ChatGPT 4.0 for demo and IR purposes.
 - Contributed to early-stage startup planning, including a business plan for a wine recommendation and food pairing chatbot.
 
-## Product Manager / Machine Learning Engineer (Feb 2023 – Feb 2024) <br><sub>Albiti</sub>
+## Project Manager / Machine Learning Engineer (Feb 2023 – Feb 2024) <br><sub>Albiti</sub>
 - Continuously managed and performed R&D tasks for the CGMS project.
 - Directed the IR process for Series A funding, successfully securing around $X million.
 - Recruited and managed 5–10 team members with diverse backgrounds, including engineers and designers.
