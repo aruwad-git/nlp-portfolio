@@ -193,7 +193,3 @@ Dongducheon, Republic of Korea
 - Kim, K. H. and Cho, S.-B., ["Modular Bayesian Networks with Low-Power Wearable Sensors for Recognizing Eating Activities"](https://www.mdpi.com/1424-8220/17/12/2877), *Sensors*, vol. 17, no. 12, pp. 1-16, 2017. <b>(SCIE; IF: 4.1 in 2022)</b>
 - Kim, K. H. and Cho, S.-B., ["An Efficient Concentrative Photovoltaic Solar System with Bayesian Selection of Optimal Solar Tracking Algorithms"](https://doi.org/10.1016/j.asoc.2019.105618), *Applied Soft Computing*, vol. 83, 2019.07. <b>(SCIE; IF: 8.7 in 2022)</b>
 - Kim, K. H. and Cho, S.-B., ["A Context Recognition System for Various Food Intake Using Mobile and Wearable Sensor Data"](https://koreascience.kr/article/JAKO201616553237015.page), *Journal of KIISE*, vol. 43, no. 5, pp. 531-540, 2016.05.
-
----
-
-# Summary
