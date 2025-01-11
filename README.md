@@ -27,7 +27,7 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
   <tr>
     <td style="padding: 0; border-right: 1px solid #ddd; width: 250px;">
       <a href="https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/3_Viniq" style="text-decoration: none; color: inherit;">
-        <img src="./2_Project/3_Viniq/figs/icon.JPG" alt="Viniq" style="width: 250px; height: auto;">
+        <img src="./2_Project/3_Viniq/figs/logo.JPG" alt="Viniq" style="width: 250px; height: auto;">
       </a>
     </td>
     <td style="padding: 10px; vertical-align: top; width: 350px; color: inherit;">
