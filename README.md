@@ -122,22 +122,11 @@ Note: This is an informal version of CV for overview. If you want formal CV, fee
 
 # Work Experience
 
-## Machine Learning Engineer (Oct 2018 – Apr 2019) <br><sub>Korean Language and Artificial Intelligence (KLAI)</sub>
-- Developed a prototype for Korean language autograding system for a speaking section for TOPIK test.
-- Implemented services for speech recognition and grading models with a basic server architecture, using Google speech recognition API, EC2 and Sagemaker in AWS, and MySQL.
-- Surveyed speech recognition algorithms for Korean and evaluation methodologies, implemented and tested basic algorithms such as the comparison of MAPD.
-
-## Machine Learning Engineer (Apr 2019 – Sep 2019) <br><sub>Doohoma Company</sub>
-- Developed an AI betting model for horse racing with real-world data.
-- The model incorporated various raw and handcrafted features such as biological information of the horse, horse trainer details, and past race results, and provided optimal horse combinations and betting amounts.
-- Utilized rule-based preprocessing, a deep learning architecture combining CNN for low-level feature extraction, GRU for time-series learning, and a Bayesian network for stochastic inference of high-level features.
-
-## Machine Learning Engineer (Feb 2020 – Feb 2023) <br><sub>Konan Technology</sub>
-- Performed object detection and classification for the project commissioned by the Ministry of National Defense of Korea, integrating YOLO4 into a data collection module and developing test procedures for weapon and vehicle recognition.
-- Performed fundamental R&D on speaker recognition for Korean speakers, testing open APIs like GCP and UIS-RNN, and exploring new algorithms based on sentence-ending word analysis.
-- Managed the project for Continuous Glucose Monitoring System (CGMS) and dietary management service for diabetes.
-- Conducted R&D tasks, including sensor calibration algorithms, lag time compensation, glucose trend prediction, and glycemic index-based dietary management applications.
-- Note: Some tasks listed here and under Konan Technology may correspond to overlapping periods due to the project's continuous development from Konan Technology to Albiti.
+## Chief Technology Officer (TBD) (Aug 2024 – Oct 2024) <br><sub>Viniq AI</sub>
+- Set to be hired as CTO post-funding and initiated participation in tasks.
+- Developed a RAG pipeline for QA system for wine recommendation and food pairing.
+- Managed the website development for a chatbot demo application based on ChatGPT 4.0 for demo and IR purposes.
+- Contributed to early-stage startup planning, including a business plan for a wine recommendation and food pairing chatbot.
 
 ## Product Manager / Machine Learning Engineer (Feb 2023 – Feb 2024) <br><sub>Albiti</sub>
 - Continuously managed and performed R&D tasks for the CGMS project.
@@ -149,12 +138,22 @@ Note: This is an informal version of CV for overview. If you want formal CV, fee
 - Planned R&D and regulatory approval processes in collaboration with Chinese hospitals and CROs, addressing GMP requirements and fast-track approval for innovative medical products.
 - Led teams of 10–15 undergraduates at Yonsei University, providing lectures, challenges, and recruitment management.
 
-## Chief Technology Officer (TBD) (Aug 2024 – Oct 2024) <br><sub>Viniq AI</sub>
-- Set to be hired as CTO post-funding and initiated participation in tasks.
-- Developed a RAG pipeline for QA system for wine recommendation and food pairing.
-- Managed the website development for a chatbot demo application based on ChatGPT 4.0 for demo and IR purposes.
-- Contributed to early-stage startup planning, including a business plan for a wine recommendation and food pairing chatbot.
+## Machine Learning Engineer (Feb 2020 – Feb 2023) <br><sub>Konan Technology</sub>
+- Performed object detection and classification for the project commissioned by the Ministry of National Defense of Korea, integrating YOLO4 into a data collection module and developing test procedures for weapon and vehicle recognition.
+- Performed fundamental R&D on speaker recognition for Korean speakers, testing open APIs like GCP and UIS-RNN, and exploring new algorithms based on sentence-ending word analysis.
+- Managed the project for Continuous Glucose Monitoring System (CGMS) and dietary management service for diabetes.
+- Conducted R&D tasks, including sensor calibration algorithms, lag time compensation, glucose trend prediction, and glycemic index-based dietary management applications.
+- Note: Some tasks listed here and under Konan Technology may correspond to overlapping periods due to the project's continuous development from Konan Technology to Albiti.
 
+## Machine Learning Engineer (Apr 2019 – Sep 2019) <br><sub>Doohoma Company</sub>
+- Developed an AI betting model for horse racing with real-world data.
+- The model incorporated various raw and handcrafted features such as biological information of the horse, horse trainer details, and past race results, and provided optimal horse combinations and betting amounts.
+- Utilized rule-based preprocessing, a deep learning architecture combining CNN for low-level feature extraction, GRU for time-series learning, and a Bayesian network for stochastic inference of high-level features.
+
+## Machine Learning Engineer (Oct 2018 – Apr 2019) <br><sub>Korean Language and Artificial Intelligence (KLAI)</sub>
+- Developed a prototype for Korean language autograding system for a speaking section for TOPIK test.
+- Implemented services for speech recognition and grading models with a basic server architecture, using Google speech recognition API, EC2 and Sagemaker in AWS, and MySQL.
+- Surveyed speech recognition algorithms for Korean and evaluation methodologies, implemented and tested basic algorithms such as the comparison of MAPD.
 
 ---
 
