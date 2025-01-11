@@ -26,7 +26,7 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
 <table style="border: 1px solid #ddd; border-radius: 8px; width: 300px;">
   <tr>
     <td style="padding: 0; border-right: 1px solid #ddd; width: 250px;">
-      <a href="https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/3_Viniq" style="text-decoration: none; color: inherit;">
+      <a href="https://viniq.wine/" style="text-decoration: none; color: inherit;">
         <img src="./2_Project/3_Viniq/figs/logo.JPG" alt="Viniq" style="width: 250px; height: auto;">
       </a>
     </td>
@@ -48,7 +48,7 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
 <table style="border: 1px solid #ddd; border-radius: 8px; width: 300px;">
   <tr>
     <td style="padding: 0; border-right: 1px solid #ddd; width: 250px;">
-      <a href="https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/2_BioASQ" style="text-decoration: none; color: inherit;">
+      <a href="https://www.bioasq.org/" style="text-decoration: none; color: inherit;">
         <img src="./2_Project/2_BioASQ/figs/icon.JPG" alt="BioASQ" style="width: 250px; height: auto;">
       </a>
     </td>
@@ -72,7 +72,7 @@ Please check out my portfolio below, which is updated almost everyday, and donâ€
 <table style="border: 1px solid #ddd; border-radius: 8px; width: 300px;">
   <tr>
     <td style="padding: 0; border-right: 1px solid #ddd; width: 250px;">
-      <a href="https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/1_Google_QUEST" style="text-decoration: none; color: inherit;">
+      <a href="https://www.kaggle.com/competitions/google-quest-challenge" style="text-decoration: none; color: inherit;">
         <img src="./2_Project/1_Google_QUEST/Icon.JPG" alt="Google QUEST Q&A Labeling" style="width: 250px; height: auto;">
       </a>
     </td>
