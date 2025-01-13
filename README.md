@@ -120,7 +120,7 @@ Dongducheon, Republic of Korea
 
 ---
 
-# Research Papers
+# Publications
 
 ## Conferences
 - Kim, K. H., Lee, C. S., Jo, S. M., and Cho, S. B., ["Predicting the Success of Bank Telemarketing Using Deep Convolutional Neural Networks"](https://ieeexplore.ieee.org/abstract/document/7492828), *The 7th International Conference on Soft Computing and Pattern Recognition*, 2015.11.
