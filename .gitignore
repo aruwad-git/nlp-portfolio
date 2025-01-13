@@ -9,6 +9,7 @@
 **/docs
 *.exe
 *.lnk
+*.m4v
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
