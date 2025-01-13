@@ -63,5 +63,3 @@
 <img src="figs/gi_system_architecture.JPG" alt="System Architecture" width="60%">
 
 <img src="figs/gi_prototype1.JPG" alt="Prototype 1" width="60%">
-
-![Demo Video](gi_demo.m4v)
