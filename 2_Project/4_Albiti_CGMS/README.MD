@@ -5,7 +5,7 @@
 ## CGMS F/W.
 
 ### Digital Signal Processing for CGMS Sensor.
-![Digital Signal Processing for CGMS Sensor]("figs/fw_dsp.JPG")
+![Digital Signal Processing for CGMS Sensor](/figs/fw_dsp.JPG)
 
 ### Competitors Patent Analysis.
 ![Competitors Patent Analysis 1](/figs/fw_patent1.JPG)
