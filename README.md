@@ -50,73 +50,15 @@ Note: This is an informal version of CV for overview. If you want formal CV, fee
 
 # Projects
 
-## Viniq
-
-<table style="border: 1px solid #ddd; border-radius: 8px; width: 300px;">
-  <tr>
-    <td style="padding: 0; border-right: 1px solid #ddd; width: 250px;">
-      <a href="https://viniq.wine/" style="text-decoration: none; color: inherit;">
-        <img src="./2_Project/3_Viniq/figs/logo.JPG" alt="Viniq" style="width: 250px; height: auto;">
-      </a>
-    </td>
-    <td style="padding: 10px; vertical-align: top; width: 350px; color: inherit;">
-      <h3 style="margin: 0; font-size: 14px;">Viniq<a href="https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/3_Viniq"> (code) </a> <a href=""> (blog - wip) </a></h3>
-      <p style="margin: 5px 0; font-size: 10px;">
-        - A Chatbot for Wine Recommendation and Food-paring.<br>  
-        - <b>Method</b>:Data scraping from raw blog postings, for efficient RAG construction in 1~2 days.<br> 
-        - <b>Results</b>: RAG pipeline with better domain-specific reply, used by U.S. startup for IR and other activities.<br>
-        - <b>Keywords</b>: RAG, prompted engineering, domain-specific LLM, vector DB from URLs, asynchronized HTTP request.<br>
-        - <b>Tech Stacks</b>: LangChain, Goose 3, FAISS, aiohttp, asyncio.
-      </p>
-    </td>
-  </tr>
-</table>
-
-## BioASQ - Task b 
-
-<table style="border: 1px solid #ddd; border-radius: 8px; width: 300px;">
-  <tr>
-    <td style="padding: 0; border-right: 1px solid #ddd; width: 250px;">
-      <a href="https://www.bioasq.org/" style="text-decoration: none; color: inherit;">
-        <img src="./2_Project/2_BioASQ/figs/icon.JPG" alt="BioASQ" style="width: 250px; height: auto;">
-      </a>
-    </td>
-    <td style="padding: 10px; vertical-align: top; width: 350px; color: inherit;">
-      <h3 style="margin: 0; font-size: 14px;">BioASQ - Task b. <a href="https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/2_BioASQ"> (code) </a> <a href="https://velog.io/@aruwad/BioASQ-12b"> (blog) </a></h3>
-      <p style="margin: 5px 0; font-size: 10px;">
-        - A Challenge in Large-scale Biomedical Semantic Indexing and Question Answering.<br>  
-        - Top-tier Competition for Medical NLP.<br> 
-        - <b>Results</b>: 0.9541 of Macro f1 (top 1~20%, post-competition).<br>
-        - <b>Keywords</b>: RAG, medical NLP, LLM fine-tuning, data augmentation, asynchronized HTTP request.<br>
-        - <b>Tech Stacks</b>: LangChain, FAISS, aiohttp, asyncio, ThreadPoolExecutor, BeautifulSoup.
-      </p>
-    </td>
-  </tr>
-</table>
+| **Name** | **Description** | **Keywords** | **Results** | **Category** | **Links** |
+|-----------|-----------------|-------------|-------------|--------------|-------------|
+| [Viniq](https://viniq.wine/) | RAG system for wine recommendation and food pairing. | - Asynchronized web scraping and vector DB construction.<br>- Prompted engineering. | - RAG pipeline with better domain-specific reply.<br>- Used by U.S. startup for IR and other activities. | Project | - [code](https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/3_Viniq)<br>- [blog (WIP)](https://github.com/aruwad-git/nlp-portfolio/blob/main) |
+| [BioASQ](https://www.bioasq.org/) | A Top-tier competition in medical NLP, for challenges in Large-scale Biomedical Semantic Indexing and Question Answering. | - RAG for medical NLP.<br>- Domain-specific LLM fine-tuning.<br>- Data augmentation.<br>- Asynchronized HTTP request. | - 0.9541 of Macro f1 (top 1~20%, post-competition). | Competition | - [code](https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/2_BioASQ)<br>- [blog](https://velog.io/@aruwad/BioASQ-12b) |
+| [Google QUEST Q&A Labeling](https://www.kaggle.com/competitions/google-quest-challenge) | Kaggle competition held by Google, for multi-label text classification on Q&A data. | - Text classification.<br>- Skip connections.<br>- Stage-wise fine-tuning. | - 127/1,572 (top 8%, post-competition). | Competition | - [code](https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/1_Google_QUEST)<br>- [blog](https://velog.io/@aruwad/Kaggle-Google-QUEST) |
+| Albiti CGMS | CGMS sensor-related ML models and GI-based dietary management app for diabetes. | - Glucose trend prediction.<br>- Lag time Compensation.<br>- Diabetes onset prediction.<br>- GI estimation. | - Compatible performance with RMSE of 17.16 (7.88) for glucose prediction, and so on.<br>- Successful R&D results and demo for funding around $X millions. | Project | - [blog (WIP)](https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/4_Albiti_CGMS) |
 
 
-## Google QUEST Q&A Labeling
 
-
-<table style="border: 1px solid #ddd; border-radius: 8px; width: 300px;">
-  <tr>
-    <td style="padding: 0; border-right: 1px solid #ddd; width: 250px;">
-      <a href="https://www.kaggle.com/competitions/google-quest-challenge" style="text-decoration: none; color: inherit;">
-        <img src="./2_Project/1_Google_QUEST/Icon.JPG" alt="Google QUEST Q&A Labeling" style="width: 250px; height: auto;">
-      </a>
-    </td>
-    <td style="padding: 10px; vertical-align: top; width: 350px; color: inherit;">
-      <h3 style="margin: 0; font-size: 14px;">Google QUEST Q&A Labeling  <a href="https://github.com/aruwad-git/nlp-portfolio/tree/main/2_Project/1_Google_QUEST"> (code) </a> <a href="https://velog.io/@aruwad/Kaggle-Google-QUEST"> (blog) </a></h3></h3>
-      <p style="margin: 5px 0; font-size: 10px;">
-        - Multi-label Text Classification on Q&A Data.<br>
-        - Open Competition in Kaggle, held by Google.<br>
-        - <b>Results</b>: 127/1,572 (top 8%, post-competition)<br>
-        - <b>Keywords</b>: text classification, skip connections, stage-wise fine-tuning.<br>
-        - <b>Tech Stacks</b>: Hugging Face, sklearn, pyplot, scipy.
-      </p>
-    </td>
-  </tr>
-</table>
 
 
 
