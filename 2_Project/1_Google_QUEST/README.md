@@ -176,7 +176,6 @@ else:
 
 - Competition 글인 만큼 다들 아는 내용들은 넘어가고 몇 가지만 간단히 짚고 가자.
 - 받자마자 **Null Check**를 하는 습관을 들이자.
-- 왠만하면 Original dataset은 **copy**해서 쓰자. <small>~~나중에 재수없어서 캐시 날려먹고 샤드 찾고 하다보면 아~~</small>
 - 본 프로젝트에선 `pd.DataFrame`로 바로 받았지만, 🤗를 쓰는 경우는 왠만하면 `datasets.load_dataset()`으로 받자. 
 Arrow와 Memory mapping 등을 사용하여 가뜩이나 부족한 RAM도 아끼고, type conversion에 interface만 바꾸는 등, 암튼 효율적이다. [참고](https://huggingface.co/docs/datasets/about_arrow?utm_source=chatgpt.com)
 
