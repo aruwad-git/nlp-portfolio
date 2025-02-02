@@ -136,7 +136,7 @@
 - 또한 Competition에 진짜 진심이라면 ~~닥치고~~ **Feature Engineering** 노가다를 하는게 국룰이다. Feature scaling 이런거 얘기하는게 아니다. 그 대회의 **Task-specific**한 feature들이다 (예컨대 Stackoverflow의 답변들을 긁어와서 **직접** 느껴보고 Postprocessing을 한다던지 ~~직접 앙상블에 들어가 인간 voter가 되어보자!~~). 나도 몇몇 꽤 좋은 것들을 발견했지만, 끝난 대회에 노가다를 하긴 좀 그래서 관뒀다.
 - 전통적인 Hyperparameter Tuning만으론 어려울 것 같고, Context 외의 Feature들을 어떤 구조로 모델링하냐가 핵심일 것 같다.
 - 당연한 귀결이지만, Body (Transformer) 안에서 못하면 Head (Dense)에서 하면 된다. 몇몇 [상위권 참가자](https://www.kaggle.com/competitions/google-quest-challenge/discussion/129927)들은 Dense를 몇 개 쌓고 특정 feature만 취하는 등의 Custom Head를 사용했고, 그냥 Default Head로 밀어붙인 사람은 거의 없었다.
-- 나는 Non-linguistic feature를 Transformer 밖으로 bypass하는 방식(관심 있으시면 [이 논문](https://arxiv.org/abs/1606.07792?utm_source=chatgpt.com) 참조), Complex Head 및 Iterative training 등을 사용하였다. (자세한 건 아래 ㄱㄱ)
+- 나는 Non-linguistic feature를 Transformer 밖으로 bypass하는 방식([그 논문](https://arxiv.org/abs/1606.07792?utm_source=chatgpt.com)), Complex Head 및 Iterative training 등을 사용하였다. (자세한 건 아래 ㄱㄱ)
 - Head는 라벨 별 구성이 아닌, 통합하여 하나의 Dense로 입력받았다. 해당 문제는 각 라벨의 값이 아닌 라벨 간 순위를 맞추는 것이므로, 라벨 간 상대적인 수치 정보를 잃는 것은 너무 큰 손해라고 생각했다.
 - 30개 라벨의 순서라는, 굉장히 Task-specific한 타겟을 학습해야 하므로, Adapter 방식의 PEFT (e.g. LoRA)가 적합할 것 같다. 이번 프로젝트의 범위를 벗어나 생략했다. <small>~~아무튼 적합할거다~~</small>
 - 그 밖의 Tokenization이나 Pretraining Model 선택(당연히 BERT-like encoder-only 모델들) 등은 다들 거기서 거기인 듯 하다. Data augmentation 등을 시도한 글들은 많았으나 대부분 그닥인 것 같다.
