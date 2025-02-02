@@ -462,7 +462,7 @@ class CustomModel(nn.Module):
 - 초반부에 언급했지만, 나는 Direct context from dialogue 외의 Feature는 Transformer가 잘 detect 하지 못할 거라고 생각한다. ~~(도대체 어떤 corpus를 학습해야 '제 3자는 이 답변에 기뻐할거야! 좋아할거야!' 이런걸 학습한단 말인가?)~~
 - 따라서 1) 일단 QA features를 Transformer에 Feedforward 시키고, 2) 나온 Hidden state를 `host` 및 `category`와 Concatenate 하여 Head에 Feedforward 시키며, 3) 조금 더 Complex architecture for Head를 시도해보았다.
 - 지금은 없지만, 사실 `self.fc1`과 `self.fc2` 사이에는 굉장히 많은 시도들이 있었고, 몇몇 RNN 기반 시도들은 상당히 성공적이었다. 하지만 불쌍한 나의 3070이 터지기 직전이어서, 어쩔 수 없이 다 지워버렸다.
-- 사실 요즘 트렌드는 막대한 자본력을 바탕으로 만들어진 LLM을 고이 모시는 쪽이다 (Optimized full-training). 하지만 이 대회처럼 적당한 규모로, 일반인 위주의, Task는 단순하지만 굉장히 Domain-specific한 경우, 적당한 규모의 LLM + Complex Head가 시간/자원이 제한된 대회에서 먹히는 경우가 꽤 있다.
+- 사실 요즘 트렌드는 막대한 자본력을 바탕으로 만들어진 LLM을 고이 모시는 쪽이다 (Optimized full-training). 하지만 이 대회처럼 적당한 규모로, 일반인 위주의, Task는 단순하지만 굉장히 Domain-specific한 경우, 적당한 규모의 LLM + Full/Head Training + Complex Head가 시간/자원이 제한된 대회에서 먹히는 경우가 꽤 있다.
 
 ## 4.2. HF Wrapper.
 
