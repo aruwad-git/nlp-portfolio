@@ -14,7 +14,7 @@ With confidence built on a solid foundation in ML and NLP, and experience as an 
 
 Please check out my portfolio below, which is actively updated, and don’t hesitate to reach out for recruitment, projects, or any opportunities we can discuss!<br>
 
-Note: This is an informal version of CV for overview. If you want formal CV, feel free to contact me.
+Note: This is an informal version of CV for overview. If you need the formal CV, feel free to contact me.
 
 - Email: aruwad.persona@gmail.com
 - LinkedIn: (wip)
