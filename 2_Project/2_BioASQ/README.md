@@ -135,7 +135,7 @@ n_docs      = 13,025
 
 - Sample은 총 1,356개로, large LLM을 fine-tuning 하기엔 터무니없이 부족하다.
 - Mid~large 규모의 pretrained LLM 기반 RAG를 기본 방향으로 잡야야겠다.
-- Full-training은 당연히 바람직하지 않다. Head-only, adapter-based PEFT, zero-shot learning 등을 고려해야 한다.
+- Full-training은 당연히 바람직하지 않다. Head-only, adapter-based PEFT, zero/few-shot learning 기반 CoT 등을 고려해야 한다.
 - 관련 정보들(snippets와 documents)이 꽤 많으므로, data augmentation을 고려해보자.
 
 ## 2.3. Length of Features.
