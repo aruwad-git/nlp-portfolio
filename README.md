@@ -8,11 +8,11 @@ When I was a sophomore, I accidentally fell in love with AI. I started my resear
 
 After 5 years of academic experience earning my BS/MS degrees in Computer Science, I joined one of Korea's leading NLP companies. As a project manager and data scientist, I led a healthcare project on **Continuous Glucose Monitoring Systems for Diabetes Management** for 5 years. It was an entirely new and thrilling experience to lead the project from scratch as a C-level manager, collaborating with a promising startup and top-tier colleagues!
 
-During this time, I was deeply impressed by how NLP transforms groundbreaking AI research into real-world applications. After **substantial** effort in study and practice, I’ve built a solid NLP foundation and related experiences.
+During this time, I was deeply impressed by how NLP transforms groundbreaking AI research into real-world applications. After substantial effort in study and practice, I’ve built a solid NLP foundation and related experiences.
 
 With confidence built on a solid foundation in ML and NLP, and experience as an initial member of three startups, including a C-level position, I have actively begun preparing my portfolio and seeking new career opportunities as of 2025.
 
-Please check out my portfolio below, <b><ins>which is actively updated</ins></b>, and don’t hesitate to reach out for recruitment, projects, or any opportunities we can discuss!<br>
+Please check out my portfolio below, which is actively updated, and don’t hesitate to reach out for recruitment, projects, or any opportunities we can discuss!<br>
 
 Note: This is an informal version of CV for overview. If you want formal CV, feel free to contact me.
 
