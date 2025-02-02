@@ -260,7 +260,7 @@ checkpoint = "dmis-lab/biobert-base-cased-v1.2"
 ![](https://velog.velcdn.com/images/aruwad/post/a7749933-eda9-4bca-9522-1f9bc8e21cc5/image.JPG)
 
 - 정확도가 0.74라 높아보일 수 있겠지만 ~~<small>(앞에 안 읽으셨구나)</small>~~, f1을 보면 눈치 빠른 **BioBERT**가 1 epoch만에 얍삽한 방법을 파악했음을 알 수 있다. 대충 OMR에 한 줄로 긋는 것과 다를 것이 없다. 공부가 필요하다.
-- 상당한 데이터를 학습한 **BioBERT**의 경우에도 추측 결과가 매우 극단적인 것으로 보아(거의 yes), 질문들이 **BioBERT**의 학습 시조차도 보지 못했던 data이고, 따라서 이 task가 상당히 domain-specific하다는 것을 알 수 있다.
+- 상당한 데이터를 학습한 **BioBERT**의 경우에도 추측 결과가 매우 극단적인 것으로 보아(거의 yes), 질문들이 **BioBERT**가 학습시 보지 못했던 data이고, 따라서 이 task가 상당히 domain-specific하다는 것을 알 수 있다.
 
 ## 3.3. Basic Training.
 ### 3.3.1. Model and Tokenizer.
