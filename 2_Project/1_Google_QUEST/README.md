@@ -132,7 +132,7 @@
 
 > ### 그래서 어떻게 할건데?
 
-- 일단 Competition은 내가 한창 하던 예전이나 지금이나 대부분 ~~닥치고~~ **Ensemble**이다. 다들 비슷한 Pretrained LLM을 사용하는 NLP에선 더욱 그렇다. [Leaderboard](https://www.kaggle.com/competitions/google-quest-challenge/leaderboard)에서 실제 우승 팀들의 후기를 보면 거의 다 사용했다.
+- 일단 Competition은 내가 한창 하던 예전이나 지금이나 대부분 ~~닥치고~~ **Ensemble**이다. [Leaderboard](https://www.kaggle.com/competitions/google-quest-challenge/leaderboard)에서 실제 우승 팀들의 후기를 보면 거의 다 사용했다.
 - 또한 Competition에 진짜 진심이라면 ~~닥치고~~ **Feature Engineering** 노가다를 하는게 국룰이다. Feature scaling 이런거 얘기하는게 아니다. 그 대회의 **Task-specific**한 feature들이다 (예컨대 Stackoverflow의 답변들을 긁어와서 **직접** 느껴보고 Postprocessing을 한다던지 ~~직접 앙상블에 들어가 인간 voter가 되어보자!~~). 나도 몇몇 꽤 좋은 것들을 발견했지만, 끝난 대회에 노가다를 하긴 좀 그래서 관뒀다.
 - 전통적인 Hyperparameter Tuning만으론 어려울 것 같고, Context 외의 Feature들을 어떤 구조로 모델링하냐가 핵심일 것 같다.
 - 당연한 귀결이지만, Body (Transformer) 안에서 못하면 Head (Dense)에서 하면 된다. 몇몇 [상위권 참가자](https://www.kaggle.com/competitions/google-quest-challenge/discussion/129927)들은 Dense를 몇 개 쌓고 특정 feature만 취하는 등의 Custom Head를 사용했고, 그냥 Default Head로 밀어붙인 사람은 거의 없었다.
