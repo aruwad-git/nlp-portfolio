@@ -71,7 +71,7 @@
   - One, Complex Head 등.
 - 대회 종료 후 수행, 순위는 [Leaderboard](https://www.kaggle.com/competitions/google-quest-challenge/leaderboard?)를 기반으로 계산.
 - 프로젝트는 실제 문제를 통해 LLM Fine-Tuning Workflow에 대한 명확한 이해를 보여주기 위해 수행 $\rightarrow$ 실제 대회를 위한 Ensemble, Optuna, QLoRA 등은 생략. 
-- **Tech Stacks**: 그냥저냥 통상적인 NLP library들. PyTorch, Transformer, BERT, scikit-learn 등.
+- **Tech Stacks**: 그냥저냥 통상적인 NLP library들. PyTorch, Transformer, BERT, bitsandbytes, scikit-learn 등.
 
 ---
 
@@ -288,8 +288,7 @@ x_train_cp['txt_merged'] = x_train_cp[cols_txt].apply(lambda row: ' '.join(row),
 x_train_cp = x_train_cp.drop(columns=cols_txt)
 ```
 
-- 3개 text column을 그냥 합쳤다. 앞서 언급했지만 적어도 `question_title`은, 가능하면 3개 모두 별도로 구성하는 것이 좋을 것 같다. 
-(가물가물 하지만 1등이 각자 훈련해서 stacking 한 걸로 기억함)
+- 3개 text column을 그냥 합쳤다. 추후 'question_body'에 간단한 summarization을 해보는 것도 나쁘지 않을 것 같다.
 
 ### Preprocessing Pipeline.
 
@@ -389,7 +388,7 @@ max_length=512 covers 73.06% of samples!
 ```
 
 - 아쉽게도 많은 Sample들이 512를 가뿐히 넘고 있다. 불과 73%밖에 커버되지 않는다 (즉 Sample 중 27%는 끝 혹은 상당 부분이 잘린다).
-- ~~리뷰 좀 작작 쓰라고! 라고 생각할 수도 있지만~~ 이는 아주 자연스러운 결과다. 3개 text를 합쳤기 때문이다. 이미 몇 번 언급했지만, 시간과 자원이 허락한다면 다양한 방식으로 나눠서 Ensemble을 해보자!
+- ~~리뷰 좀 작작 쓰라고! 라고 생각할 수도 있지만~~ 이는 아주 자연스러운 결과다. 3개 text를 합쳤기 때문이다. 이미 언급했지만, 시간과 자원이 허락한다면 다양한 방식으로 줄여볼 수 있다.
 
 ## 3.3. Tokenize.
 
@@ -415,7 +414,7 @@ def tokenize(df):
 
 ```
 
-- `stride` : 일반적으로 Truncation이 많은 경우 `stride`는 좋은 선택이다. 하지만 필자는 여러가지 시도해보고 뺐다. Title, question, answer이 잡탕으로 섞여있고 각자의 길이가 굉장히 다양해서, Fixed length로 반복하는 `stride`는 결국 마이너스가 더 컸다. ~~(나눕시다 ㅎㅎ)~~
+- `stride` : 일반적으로 Truncation이 많은 경우 `stride`는 좋은 선택이다. 하지만 필자는 여러가지 시도해보고 뺐다. Title, question, answer이 잡탕으로 섞여있고 각자의 길이가 굉장히 다양해서, Fixed length로 반복하는 `stride`는 결국 마이너스가 더 컸다.
 
 ---
 
@@ -459,10 +458,10 @@ class CustomModel(nn.Module):
         return output
 ```
 
-- 초반부에 언급했지만, 나는 Direct context from dialogue 외의 Feature는 Transformer가 잘 detect 하지 못할 거라고 생각한다. ~~(도대체 어떤 corpus를 학습해야 '제 3자는 이 답변에 기뻐할거야! 좋아할거야!' 이런걸 학습한단 말인가?)~~
+- 초반부에 언급했지만, 나는 Direct context from dialogue 외의 Feature는 Transformer가 잘 detect 하지 못할 거라고 생각한다. 
 - 따라서 1) 일단 QA features를 Transformer에 Feedforward 시키고, 2) 나온 Hidden state를 `host` 및 `category`와 Concatenate 하여 Head에 Feedforward 시키며, 3) 조금 더 Complex architecture for Head를 시도해보았다.
 - 지금은 없지만, 사실 `self.fc1`과 `self.fc2` 사이에는 굉장히 많은 시도들이 있었고, 몇몇 RNN 기반 시도들은 상당히 성공적이었다. 하지만 불쌍한 나의 3070이 터지기 직전이어서, 어쩔 수 없이 다 지워버렸다.
-- 사실 요즘 트렌드는 막대한 자본력을 바탕으로 만들어진 LLM을 고이 모시는 쪽이다 (Optimized full-training). 하지만 이 대회처럼 적당한 규모로, 일반인 위주의, Task는 단순하지만 굉장히 Domain-specific한 경우, 적당한 규모의 LLM + Full/Head Training + Complex Head가 시간/자원이 제한된 대회에서 먹히는 경우가 꽤 있다.
+- 사실 요즘 트렌드는 막대한 자본력을 바탕으로 만들어진 LLM을 고이 모시는 쪽이다 (Optimized full-training). 하지만 이 대회처럼 적당한 규모로, 일반인 위주의, Task는 단순하지만 굉장히 Domain-specific한 경우, 적당한 규모의 LLM + Full/Head Training + Complex Head가 시간/자원이 제한된 대회에서 먹히는 경우가 꽤 있는 것 같다.
 
 ## 4.2. HF Wrapper.
 
@@ -494,8 +493,6 @@ class HuggingFaceModelWrapper(nn.Module):
         return self.base_model.prepare_inputs_for_generation(*args, **kwargs)
 ```
 - Custom PyTorch 모델과 🤗 library들(Trainer 등)을 연동하기 위한 wrapper다.
-- 급하게 작성하느라 몇가지 실수가 보인다(`nn.Module`을 상속했다던지). 역시나 이후 PEFT 등 몇가지 문제가 있었지만 그럭저럭 다른 문제는 발견되지 않았다.
-<small>~~(응 어차피 안쓸라했음)~~</small>
 
 ---
 
@@ -524,7 +521,7 @@ def compute_metrics(eval_pred):
 - 본 대회에서는 **Spearman's Correlation**을 사용한다. scipy로 구현해주자. ~~(이야 개오랜만 ㅠㅠ)~~
 - 따라서 한 라벨의 **정확한 값**을 맞추는 것이 아닌(그래봤자 확률이지만), **Rank**를 맞추는 것이 중요하다.
 - 따라서 나는 Head를 라벨 별로 나누지 않고 하나에 다 받는 것으로 구성했다.
-- 이는 **Tradeoff**가 있다. Task 별로 구성하면 개별 문제 자체는 훨씬 쉬워지기 때문이다. 특히 이 대회처럼 데이터가 적은 경우, 이 방식이 더 좋을 수 있다.
+- 그러나 Task 그룹 별로 구성하는 것도 좋은 아이디어라고 생각한다. 개별 문제 자체도 쉬워지고, label을 grouping 할 여지도 충분하기 때문이다. 특히 이 대회처럼 데이터가 적은 경우, 이 방식이 더 좋을 수 있다.
 - 고민을 많이 했었는데, [2등](https://www.kaggle.com/competitions/google-quest-challenge/discussion/129978)이 나눈 걸 보면 그다지 좋은 선택은 아니었을지도..?
 
 ## 5.2. Training Hyperparameter.
@@ -584,7 +581,7 @@ training_args = TrainingArguments(
 - 통상적인 Train loop with 🤗. 중급자 이상 독자를 생각해서 딱히 할 말이.. 그래도 굳이 써보면 :
   - `EarlyStoppingCallback` : 이거 안쓰시는 분 없죠..? 일단 Large epoch 하고 Early stopping parameters 조정하는게 국룰.
   c.f. 초반에 너무 낮게 잡지 말자. ~~(어차피 하루종일 learning curve 보면서 튜닝할거잖슴 ㅋㅋ)~~
-  - `batch_size=8` and `gra_steps=1` : 3개 txt를 하나로 합치는 바람에(~~또 너야~~) + Collate function도 제대로 안 정하고 하는 바람에, `batch_size`를 늘리면 훈련이 엄청 불안정해지는 기적이...
+  - `batch_size=8` and `gra_steps=1` : 3개 txt를 통으로 합치는 바람에(~~또 너야~~) + Collate function도 제대로 안 정하고 하는 바람에, `batch_size`를 늘리면 훈련이 엄청 불안정해지는 기적이...
   - `optim='adamw_bnb_8bit'` : 확실히 `bnb` 안쓰고 자체 지원해주니까 너무 편했다. 4-bits는 언제 지원해주시나요...
   - `weight_decay=2e-2` : Default로 `1e-2`로 두고 overfitting시 조절하는게 국룰.
   - `metric_for_best_model="eval_spearman"` : Custom metric 지정해주면 `early_stopping_threshold`, `greater_is_better` 등도 같이 신경써주자! ~~다들 한번쯤 이거 깜빡하고 며칠치 training 날려먹어봤잖슴 ㅎㅎ~~
@@ -594,6 +591,7 @@ training_args = TrainingArguments(
   - 그런데 어찌된 일인지 작은 warmup만으로도 높은 확률로 saddle point로 직행하는 것 같다. 아무리 Tensorboard를 뒤져봐도 원인을 못찾았다.
   - 이제와서 드는 생각인데 설마 Non-IID data는 아니겠지..? <small>~~일단 shuffle 안하긴 했음 ㅎㅎ~~</small>
   - 일단 지금은 패스 ㅠ.
+
 ## 5.3. Training.
 
 ```python
@@ -640,12 +638,12 @@ trainer_head.train()
 
 - **Alternating Training**.
   - Head에 많은 관심을 기울인만큼, Full-training과 Head-only training을 나누어 훈련했다.
-  - 나는 Domain-specific 특성, 그리고 엄청 heavy한 LLM이 아니라 Full을 좀 많이 주고(3~5), Head-only와 iteration하며 다양한 방식으로 시도한 결과, 통상적인 방법 (Full의 끝부분만 조금씩 녹이며 Fine-tuning)보다 꽤 성능이 향상되었다. 
+  - 나는 Domain-specific 특성, 그리고 엄청 heavy한 LLM이 아니라 Full을 좀 많이 주고(3~5), Head-only와 iteration하며 다양한 방식으로 시도한 결과, 통상적인 방법 (Head-only나 Full의 끝부분만 조금씩 녹이며 Fine-tuning)보다 성능이 향상되었다. 
   - 당시 실제 대회도 아니고 블로그로 정리할 줄도 몰랐어서, 정확한 데이터를 복원하지 못한 점 심심한 사과의 말씀을...
-  - 코드엔 `training_args.num_train_epochs = 10`이지만 대부분 Early Stopping이나 수동으로 끊었다. ~~(그렇다 종일 쳐다보고 있었다)~~
+  - 코드엔 `training_args.num_train_epochs = 10`이지만 대부분 Early Stop 하거나 수동으로 끊었다. ~~(그렇다 종일 쳐다보고 있었다)~~
 - **Stage-Wise Learning Rate**.
   - Learning rate도 다르게 주었다.
-  - 일반적인 예상과는 달리, Head-only에서 작은 Learning rate를 주는 것이 성능이 더 좋았다. Full-training에서 이미 같이 학습했을테니, 일반적인 scheduling에 부합한다. 이상한 현상은 아니다.
+  - Head-only에서 작은 Learning rate를 주는 것이 성능이 더 좋았다. Full-training에서 이미 같이 학습했을테니, 일반적인 scheduling에 부합한다. 이상한 현상은 아니다.
   
 ## 5.4. Final Parameters.
 
@@ -685,8 +683,8 @@ trainer_head.train()
 - 오랜만에 다시 대회에 도전해보았고, 127/1,572 (top 8%)라는 괜찮은 결과를 달성했다!
 - BERT에 Custom Head, Stage-wise Fine-Tuning 등 여러가지 기법 및 튜닝을 시도했다.
 - 갑작스럽게 준비하여 Optuna, PEFT, bitsandbytes, ETensorboard 등 실제 Fine-Tuning에 사용되는 Tech stacks를 소개하지 못해 아쉬웠다.
-- 뭐 class-weighted training 등 여러가지를 언급해서 유식한 척할순 있겠지만, 그냥 ensemble이 갑인 전형적인 케이스였다. 
-특히 label 별로 weak classifier를 구성해 adaboost를 돌리면 잘 먹힐 것 같았는데, 제대로 해보지 못해 역시 아쉬웠다.
+- 뭐 class-weighted training 등 여러가지를 언급해서 유식한 척할순 있겠지만, 그냥 ensemble이 갑인 전형적인 케이스인 것 같다. 
+특히 label 별로 weak classifier를 구성해 adaboost 같은 것을 돌리면 잘 먹힐 것 같았는데, 제대로 해보지 못해 역시 아쉬웠다.
 - 블로그 작성만 6시간 38분이 걸렸다. 막상 쓴 거 보면 허술한데 이거 생각보다 시간이 엄청 걸린다. 욕심을 좀 내려놔야겠다.
 
 
