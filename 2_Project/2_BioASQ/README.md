@@ -38,7 +38,7 @@
 - CMU, Stanford 등의 Top-tier participants, 2,000편 이상의 publications 등 academic society 및 industry에서 활발히 진행되고 있다.
 - **기간** : 2013년 이래로 매년 개최되고 있으며, 올해로 13년차다.
 - **주최 기관** : National Centre for Scientific Research (NCSR) in Greece, University of Huston, USA 등.
-- **Tasks**: 매년 다양한 종류의 subtasks를 제시하며, Exact answer만 포함하는 기존 datasets과 달리 거의 모든 NLP task를 포함한다.
+- **Tasks**: 매년 다양한 종류의 subtasks를 제시하며, Exact answer만 포함하는 통상 datasets과 달리 거의 모든 NLP task를 포함한다.
   - **Task a**: 수천만 이상의 PubMed 논문의 검색 및 분류를 위한 MeSH 추출.
   - **Task b**: LLM 기반 다양한 NLP tasks를 수행: Biomedical QA, Information retrieval, Summarization 등.
   - **Task Synergy**: Academic institutions, Industry 등이 연계하여 PubMed 기반 QA 시스템 구축. 
