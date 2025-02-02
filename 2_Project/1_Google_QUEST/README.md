@@ -71,7 +71,7 @@
   - One, Complex Head 등.
 - 대회 종료 후 수행, 순위는 [Leaderboard](https://www.kaggle.com/competitions/google-quest-challenge/leaderboard?)를 기반으로 계산.
 - 프로젝트는 실제 문제를 통해 LLM Fine-Tuning Workflow에 대한 명확한 이해를 보여주기 위해 수행 $\rightarrow$ 실제 대회를 위한 Ensemble, Optuna, QLoRA 등은 생략. 
-- **Tech Stacks**: 그냥저냥 통상적인 NLP library들. PyTorch, Transformer, BERT, bitsandbytes, scikit-learn 등.
+- **Tech Stacks**: 그냥저냥 통상적인 NLP library들. PyTorch, Transformer, BERT, scikit-learn 등.
 
 ---
 
