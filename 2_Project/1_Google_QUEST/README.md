@@ -203,7 +203,7 @@ Arrow와 Memory mapping 등을 사용하여 가뜩이나 부족한 RAM도 아끼
 
 
 - `qa_id` : Sample의 index이다. Submit 할 때 빼곤 1도 쓸모없다.
-- `question_title`, `question_body`, and `answer` : 일반적인 text이다. 특이한 점은, 일종의 category 혹은 summary의 역할을 하는 **`question_title`**을 제공한다는 점이다. 이는 당연히 별도의 Transformer로 학습하고 merge를 하던 ensemble을 하던 해야겠지만, 시간이 없어서 못했다 (진짜로 ㅠ). 실제 참여했다면 당연히 했을 것이다.
+- `question_title`, `question_body`, and `answer` : 일반적인 text이다. 특이한 점은, 일종의 category 혹은 summary의 역할을 하는 **`question_title`**을 제공한다는 점이다.
 
 ### Asker-specific Pattern?
 
